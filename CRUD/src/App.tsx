@@ -9,7 +9,7 @@ function App(): ReactElement {
   return (
     <>
        <Routes>
-        <Route path='/' element={ <Main /> } />
+        <Route path='/hahaha' element={ <Main /> } />
         <Route path='/:id' element={ <ProductDetails />} />
       </Routes>
     </>
